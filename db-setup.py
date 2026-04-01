@@ -6,7 +6,7 @@ from decimal import Decimal
 def setup_demo_data(): 
  # Initialize DynamoDB resource 
  # Make sure your AWS credentials are set in your environment 
- dynamodb = boto3.resource('dynamodb', region_name='us-east-1') 
+ dynamodb = boto3.resource('dynamodb', region_name='##AWS Region name##') 
 
  # --- 1. Define Table Schemas --- 
  tables = { 
